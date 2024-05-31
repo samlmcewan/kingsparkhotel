@@ -1,0 +1,23 @@
+/* Default styles - small devices (Mobile, screen width < 768px) */
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+.dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+  }
+
+  .barlow {
+    font-family: "Barlow", sans-serif;
+    /* font-weight: 100; */
+    font-style: normal;
+  }
+
+  .bellefair {
+    font-family: "Bellefair", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
