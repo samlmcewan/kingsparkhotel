@@ -2,10 +2,35 @@
 
 @media (min-width: 768px) {
 
+    /* Hero - medium devices  */
+    .overlay {
+        /* align-items: center; */
+        background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8744091386554622) 83%, rgba(0,0,0,1) 100%);
+    }
+
+    .hero {
+        height: 40vh;
+    }
+
+    .hero-text {
+        padding-top: 4.5rem;
+        padding-right: 3rem;
+    }
+
+    .hero-text p {
+        font-size: 2.25rem;
+    }
+
+    .hero .bottle {
+        width: calc(35px*1.5);
+    }
+
+
      /* Footer - Medium devices */
     
      .shfooter .collapse {
         display: none;
     }
+    
     
 }

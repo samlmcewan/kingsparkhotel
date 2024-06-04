@@ -1,6 +1,29 @@
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
+
+
+
+
+/* Hero - Large Devices */
+
+.overlay {
+    /* align-items: center; */
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8744091386554622) 75%, rgba(0,0,0,1) 100%);
+}
+
+.hero-text p {
+    font-size: 3.5rem;
+}
+
+.hero .bottle {
+    width: calc(35px*1.9);
+}
+
+
+
+
+
 /* Footer - Large Devices */
 
 .shfooter .collapse {
