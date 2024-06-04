@@ -38,13 +38,14 @@
 }
 
 #main-nav a {
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
     color: #ffffff;
-    font-weight: 400;
+    font-weight: 300;
     transition: all .3s;
 }
 #main-nav .nav-item:hover a{
-    color: var(--gold);
+    /* color: var(--gold); */
+    color: #ffffff80;
 }
 
 #main-nav .nav-item {
