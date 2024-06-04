@@ -25,6 +25,12 @@
         width: calc(35px*1.5);
     }
 
+    /* About - medium devices  */
+    .gold-hero {
+        width: 90%;
+        margin-top: -3.5rem;
+    }
+
 
      /* Footer - Medium devices */
     

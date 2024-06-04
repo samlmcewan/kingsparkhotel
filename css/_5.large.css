@@ -20,8 +20,23 @@
     width: calc(35px*1.9);
 }
 
-
-
+/* About - Large devices  */
+.gold-hero {
+    width: 90%;
+    margin-top: -4rem;
+}
+.about {
+    position: relative;
+}
+.booknow {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    rotate: 90deg;
+    width: 20rem;
+    transition: all .3s ease;
+}
 
 
 /* Footer - Large Devices */

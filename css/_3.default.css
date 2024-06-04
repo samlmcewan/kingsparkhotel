@@ -20,7 +20,14 @@
     font-weight: 400;
     font-style: normal;
   }
+
+  h1 {
+    font-weight: 400;
+  }
   
+  p {
+    font-size: 1.125rem;
+  }
 
   a {
     transition: all .3s ease;
@@ -250,9 +257,6 @@
     font-style: normal;
     font-weight: 400;
     margin-bottom: .25rem;
-    
-    
-    
 }
 
 
@@ -267,8 +271,29 @@
     object-fit: cover;
 }
 
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about {
+    position: relative;
+    z-index: 99999;
+}
+.gold-hero {
+    width: 90%;
+    margin-top: -2rem;
+    /* position: absolute; */
+    z-index: 99999;
+}
 
-    /*--------------------------------------------------------------
+.booknow {
+    width: 50%;
+}
+
+.booknow:hover {
+    opacity: .7;
+}
+
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 footer {

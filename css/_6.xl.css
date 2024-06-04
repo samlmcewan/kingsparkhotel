@@ -61,7 +61,7 @@
 
     /* Hero - XL Devices */
     .hero {
-        height: 70vh;
+        height: 60vh;
     }
     .overlay {
         /* align-items: center; */
@@ -76,6 +76,13 @@
     }
     .hero .bottle {
         width: calc(35px*3);
+    }
+
+    /* About - XL devices  */
+    .gold-hero {
+        width: 70%;
+        /* margin-top: -5rem; */
+        margin-top: -5%;
     }
 }
         
