@@ -1,5 +1,43 @@
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
+/* Footer - Large Devices */
 
+.shfooter .collapse {
+    display: block;
+    }
+    footer .fa-chevron-right {
+    display: inline-block;
+    }
+    footer ul li {
+    margin-bottom: 10px;
+    
+    }
+    footer ul li span {
+        display: inline-block;
+    }
+    footer ul li a:hover span {
+        animation: arrow-right 0.3s linear forwards; 
+              
+          }
+      
+      @keyframes arrow-right {
+        from {
+          transform: translateX(0px); }
+        to {
+          transform: translateX(2px); } 
+          
+      }
+    
+      #footer .footer-title {
+        font-size: 1.5rem;
+      }
+     #footer .logo-footer {
+        width: 37%;
+        /* padding-bottom: 3rem; */
+     }
+
+     .footer-title {
+        margin-bottom: 1rem;
+    }
 }

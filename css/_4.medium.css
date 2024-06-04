@@ -1,5 +1,11 @@
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
+
+     /* Footer - Medium devices */
+    
+     .shfooter .collapse {
+        display: none;
+    }
     
 }
