@@ -3,8 +3,8 @@ const swiper = new Swiper('.swiper', {
   // direction: 'horizontal',
   loop: true,
   autoplay: {
-    delay: 5000, // Time in milliseconds between slides
-    disableOnInteraction: false, // Set to false if you want autoplay to continue even when user interacts with the swiper
+    delay: 5000, 
+    disableOnInteraction: false,
   },
 });
 
