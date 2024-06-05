@@ -391,6 +391,11 @@
     background-color: var(--cream);
     margin-top: 5rem;
 }
+.events a {
+    color: var(--black);
+    text-decoration: none;
+    transition: all .6s ease;
+}
 .events .circle3 {
     margin-top: -5rem;
 }
@@ -404,10 +409,24 @@
 .events h3 {
     font-weight: 300;
     font-size: 3rem;
+    transition: all .6s ease;
 }
 .events p {
     font-size: 1.25rem;
+    transition: all .6s ease;
 }
+.events a:hover h3, .events a:hover p {
+    /* color: var(--gold); */
+}
+.events:has(> :hover) {
+    a:not(:hover) {
+      opacity: 0.5;
+      filter: grayscale(50%);
+    }
+    a:not(:hover) h3, a:not(:hover) p {
+        color: var(--gold);
+    }
+  }
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
